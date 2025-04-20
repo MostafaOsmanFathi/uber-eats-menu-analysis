@@ -1,15 +1,29 @@
-# 📦 Dataset Instructions
+# Uber Eats USA Data Analysis 🍔📊
 
-Due to GitHub's size limitations, we do not store the dataset in this repository.
+This project analyzes restaurant menus and pricing across the USA using Uber Eats data.
 
-## How to Access the Dataset
+## 📁 Dataset
 
-1. Go to the original dataset on Kaggle:
-   👉 https://www.kaggle.com/datasets/ahmedshahriarsakib/uber-eats-usa-restaurants-menus
+- **Source:
+  ** [Kaggle - Uber Eats USA Restaurants & Menus](https://www.kaggle.com/datasets/ahmedshahriarsakib/uber-eats-usa-restaurants-menus)
+- **Contents:** Restaurant names, locations, cuisines, dishes, prices, etc.
 
-2. Download the dataset files.
-    - restaurant-menus.csv
-    - restaurants.csv
+## 🔍 Goals
 
-3. Place them in the following folder:
-    - put the files in `data/raw`
+- Understand menu trends by state or cuisine
+- Analyze pricing distribution
+- Identify top categories or dishes
+- [Add more as needed]
+
+## 🧪 Project Structure
+
+- `notebooks/`: Exploratory and modeling notebooks
+- `data/`: Raw and processed datasets
+- `src/`: Python scripts for data cleaning, modeling, etc.
+- `reports/`: Final results, visualizations, presentation slides
+
+## 🔧 Setup
+
+```bash
+    pip install -r requirements.txt
+```
